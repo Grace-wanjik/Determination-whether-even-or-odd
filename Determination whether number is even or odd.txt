@@ -1,0 +1,11 @@
+//Determination whether a number is even or odd
+#include <stdio.h>
+int main(){
+    int a;
+    printf("\n Enter value a");
+    scanf("%d",&a);
+    if(a%2==0){
+    printf("a is even");}
+    else{printf("A is odd");}
+    return 0;
+}
